@@ -1,0 +1,15 @@
+.Navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__logo {
+    img {
+      width: 180px;
+      transition: 0.5s all;
+      &:hover {
+        scale: 1.07;
+      }
+    }
+  }
+}
